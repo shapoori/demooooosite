@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>اپکس نوتریشن | فروشگاه تخصصی مکمل‌های ورزشی و تغذیه قهرمانی</title>
+  <meta name="description" content="فروشگاه آنلاین مکمل‌های ورزشی اورجینال اپکس با ضمانت ۱۰۰٪ اصالت کالا، تاییدیه آزمایشگاهی HPLC، مشاوره تخصصی رایگان و ارسال سریع به سراسر ایران." />
+  
+  <!-- OpenGraph & Social Cards -->
+  <meta property="og:title" content="اپکس نوتریشن | مکمل‌های ورزشی اورجینال و تغذیه قهرمانی" />
+  <meta property="og:description" content="مرجع تخصصی خرید مکمل‌های ورزشی بدنسازی با ضمانت اصالت ۱۰۰٪ آزمایشگاهی و ارسال سریع." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/images/hero.jpg" />
+  
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="./assets/js/products-data.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar (Dismissible, max 38px) -->
+  <div class="announcement-bar">
+    <div class="container" style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+      <div>
+        <span class="badge-fire">⚡ جشنواره قهرمانان:</span>
+        <span>ارسال رایگان سفارش‌های بالای ۱،۵۰۰،۰۰۰ تومان با کد تخفیف <strong class="num-ltr" style="color: var(--primary);">APEX15</strong> (۱۵٪ تخفیف مازاد)</span>
+      </div>
+      <button type="button" class="announcement-bar-close" title="بستن اعلان">✕</button>
+    </div>
+  </div>
+
+  <!-- Header Sticky (Top Bar Contract: 1 Row, 3 Zones) -->
+  <header class="header-sticky">
+    <div class="container">
+      <div class="top-bar">
+        
+        <!-- Zone 1: Brand Wordmark (Single text element) -->
+        <a href="index.html" class="brand-zone">
+          <div class="brand-logo-icon">▲</div>
+          <div class="brand-text-block">
+            <span class="brand-title">APEX <span>NUTRITION</span></span>
+            <span class="brand-sub">مکمل‌های ورزشی اورجینال</span>
+          </div>
+        </a>
+
+        <!-- Zone 2: Navigation Links (Clean, No Pills, Hover Underlines) -->
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link active">صفحه اصلی</a>
+          <a href="products.html" class="nav-link">محصولات و فروشگاه</a>
+          <a href="about.html" class="nav-link">درباره ما و اصالت آزمایشگاهی</a>
+          <a href="contact.html" class="nav-link">تماس و مشاوره تخصصی</a>
+        </nav>
+
+        <!-- Zone 3: Primary Action & Cart Utilities -->
+        <div class="header-actions">
+          <button type="button" class="icon-btn" data-action="open-search" title="جستجوی سریع مکمل‌ها (Ctrl+K)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+
+          <button type="button" class="icon-btn" data-action="open-cart" title="سبد خرید شما">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <span class="cart-count-badge">۰</span>
+          </button>
+
+          <a href="products.html" class="btn-primary" style="padding: 0.55rem 1.15rem; font-size: 0.875rem;">
+            خرید مکمل
+          </a>
+
+          <button type="button" class="icon-btn mobile-menu-btn" title="منوی موبایل">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <div class="hero-kicker">
+              <span class="kicker-bar"></span>
+              <span>استاندارد جهانی تغذیه ورزشی · دارای تاییدیه آزمایشگاهی فارماکوپه</span>
+            </div>
+            <h1 class="hero-title">
+              قدرت بی‌نهایت، ریکاوری انفجاری با مکمل‌های اورجینال <span class="highlight">اپکس نوتریشن</span>
+            </h1>
+            <p class="hero-desc">
+              فرمولاسیون دارویی، خلوص حداکثری و ضمانت اصالت ۱۰۰٪ بدون قید و شرط برای بدنسازان حرفه‌ای و ورزشکاران متعهد. تست شده در معتبرترین آزمایشگاه‌های آنالیز مواد غذایی.
+            </p>
+            <div class="hero-cta-group">
+              <a href="products.html" class="btn-primary" style="padding: 0.8rem 1.75rem; font-size: 1rem;">
+                مشاهده محصولات و ثبت سفارش
+              </a>
+              <a href="contact.html" class="btn-outline-dark" style="padding: 0.8rem 1.5rem; font-size: 1rem;">
+                دریافت مشاوره رایگان تغذیه
+              </a>
+            </div>
+
+            <div class="hero-metrics-strip">
+              <div class="hero-metric-item">
+                <div class="hero-metric-val">+۵۰,۰۰۰</div>
+                <div class="hero-metric-lbl">ورزشکار و قهرمان فعال</div>
+              </div>
+              <div class="hero-metric-item">
+                <div class="hero-metric-val">۱۰۰٪</div>
+                <div class="hero-metric-lbl">ضمانت اصالت و بچ نامبر</div>
+              </div>
+              <div class="hero-metric-item">
+                <div class="hero-metric-val">۲۴H</div>
+                <div class="hero-metric-lbl">ارسال سریع زنجیره سرد</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-media-wrapper">
+            <div class="hero-media-frame">
+              <img src="./assets/images/hero.jpg" alt="مکمل های ورزشی اپکس نوتریشن" loading="eager" />
+              <div class="hero-floating-badge">
+                <div class="hero-floating-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                </div>
+                <div class="hero-floating-text">
+                  <h4>تاییدیه خلوص ۹۹.۹٪ HPLC</h4>
+                  <p>عاری از مواد ممنوعه WADA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4-Column Trust Guarantee Strip -->
+    <section class="trust-strip">
+      <div class="container">
+        <div class="trust-grid">
+          
+          <div class="trust-item">
+            <div class="trust-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <h4>ضمانت ۱۰۰٪ اصالت کالا</h4>
+              <p>دارای بچ‌نامبر و بارکد رهگیری آزمایشگاهی</p>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <h4>ارسال سریع زنجیره سرد</h4>
+              <p>بسته‌بندی ایمن مقاوم در برابر حرارت و رطوبت</p>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <h4>مشاوره تخصصی رایگان</h4>
+              <p>زیر نظر مربیان و متخصصین تغذیه ورزشی</p>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m4.93 4.93 4.24 4.24"></path>
+                <path d="m14.83 9.17 4.24-4.24"></path>
+                <path d="m14.83 14.83 4.24 4.24"></path>
+                <path d="m9.17 14.83-4.24 4.24"></path>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <h4>آنالیز خلوص ترکیبات</h4>
+              <p>تست شده با استانداردهای دارویی cGMP</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Flash Sale Countdown Section -->
+    <section class="flash-sale-section">
+      <div class="container">
+        <div class="flash-sale-box">
+          <div class="flash-sale-header">
+            <div class="flash-title-group">
+              <span class="flash-badge-pulse">⚡ پیشنهاد شگفت‌انگیز روز</span>
+              <h2 class="flash-title">تخفیف ویژه مکمل‌های پرفروش باشگاهی</h2>
+            </div>
+            <div class="flash-timer">
+              <div class="timer-block">
+                <span class="timer-num" id="timerHours">08</span>
+                <span class="timer-lbl">ساعت</span>
+              </div>
+              <span class="timer-sep">:</span>
+              <div class="timer-block">
+                <span class="timer-num" id="timerMinutes">42</span>
+                <span class="timer-lbl">دقیقه</span>
+              </div>
+              <span class="timer-sep">:</span>
+              <div class="timer-block">
+                <span class="timer-num" id="timerSeconds">19</span>
+                <span class="timer-lbl">ثانیه</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flash sale featured products -->
+          <div class="products-grid" style="grid-template-columns: repeat(3, 1fr);">
+            
+            <!-- Flash Card 1: Whey Isolate -->
+            <div class="product-card">
+              <div class="product-thumb-box">
+                <img src="./assets/images/whey.jpg" alt="پروتئین وی ایزوله ۱۰۰٪ اپکس" loading="lazy" />
+                <div class="product-badge-group">
+                  <span class="badge-discount">۱۵٪ تخفیف</span>
+                  <span class="badge-original">تاییدیه آزمایشگاهی</span>
+                </div>
+                <button type="button" class="product-quick-btn" data-quick-view="apex-whey-isolate">مشاهده سریع</button>
+              </div>
+              <div class="product-info-box">
+                <div class="product-meta-row">
+                  <span class="product-category-text">پروتئین وی و ایزوله</span>
+                  <span class="product-rating">★ ۴.۹</span>
+                </div>
+                <h3 class="product-title">پروتئین وی ایزوله ۱۰۰٪ اپکس</h3>
+                <div class="product-dose-tag">Apex 100% Whey Isolate · ۲۲۷۰ گرم</div>
+                
+                <div class="flavor-selector">
+                  <span class="flavor-pill active">شکلات بلژیکی</span>
+                  <span class="flavor-pill">وانیل</span>
+                  <span class="flavor-pill">توت‌فرنگی</span>
+                </div>
+
+                <div class="product-price-row">
+                  <div class="price-box">
+                    <div class="current-price">۳,۸۵۰,۰۰۰ <span class="currency">تومان</span></div>
+                    <div class="old-price">۴,۵۰۰,۰۰۰</div>
+                  </div>
+                  <button type="button" class="add-cart-btn" data-add-cart="apex-whey-isolate" title="افزودن به سبد خرید">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 5v14M5 12h14"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Flash Card 2: Micronized Creatine -->
+            <div class="product-card">
+              <div class="product-thumb-box">
+                <img src="./assets/images/creatine.jpg" alt="کراتین میکرونایز خالص اپکس" loading="lazy" />
+                <div class="product-badge-group">
+                  <span class="badge-discount">۱۵٪ تخفیف</span>
+                  <span class="badge-original">خلوص ۹۹.۹٪</span>
+                </div>
+                <button type="button" class="product-quick-btn" data-quick-view="apex-creatine-pure">مشاهده سریع</button>
+              </div>
+              <div class="product-info-box">
+                <div class="product-meta-row">
+                  <span class="product-category-text">کراتین مونوهیدرات</span>
+                  <span class="product-rating">★ ۵.۰</span>
+                </div>
+                <h3 class="product-title">کراتین میکرونایز ۲۰۰ مش خالص اپکس</h3>
+                <div class="product-dose-tag">Apex Micronized Creatine · ۵۰۰ گرم</div>
+                
+                <div class="flavor-selector">
+                  <span class="flavor-pill active">بدون طعم (خالص)</span>
+                  <span class="flavor-pill">سیب ترش</span>
+                </div>
+
+                <div class="product-price-row">
+                  <div class="price-box">
+                    <div class="current-price">۱,۴۸۰,۰۰۰ <span class="currency">تومان</span></div>
+                    <div class="old-price">۱,۷۵۰,۰۰۰</div>
+                  </div>
+                  <button type="button" class="add-cart-btn" data-add-cart="apex-creatine-pure" title="افزودن به سبد خرید">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 5v14M5 12h14"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Flash Card 3: Pre-Workout Explosive -->
+            <div class="product-card">
+              <div class="product-thumb-box">
+                <img src="./assets/images/preworkout.jpg" alt="پمپ پیش از تمرین ولتائیک" loading="lazy" />
+                <div class="product-badge-group">
+                  <span class="badge-discount">۱۵٪ تخفیف</span>
+                  <span class="badge-original">انرژی انفجاری</span>
+                </div>
+                <button type="button" class="product-quick-btn" data-quick-view="apex-preworkout-ignite">مشاهده سریع</button>
+              </div>
+              <div class="product-info-box">
+                <div class="product-meta-row">
+                  <span class="product-category-text">پمپ و قبل از تمرین</span>
+                  <span class="product-rating">★ ۴.۸</span>
+                </div>
+                <h3 class="product-title">پمپ پیش از تمرین ولتائیک فیوژن</h3>
+                <div class="product-dose-tag">Voltaic Fusion Pre-Workout · ۳۰۰ گرم</div>
+                
+                <div class="flavor-selector">
+                  <span class="flavor-pill active">پانچ میوه‌ای</span>
+                  <span class="flavor-pill">تمشک آبی</span>
+                </div>
+
+                <div class="product-price-row">
+                  <div class="price-box">
+                    <div class="current-price">۱,۶۹۰,۰۰۰ <span class="currency">تومان</span></div>
+                    <div class="old-price">۱,۹۸۰,۰۰۰</div>
+                  </div>
+                  <button type="button" class="add-cart-btn" data-add-cart="apex-preworkout-ignite" title="افزودن به سبد خرید">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 5v14M5 12h14"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Grid -->
+    <section class="categories-section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">دسته‌بندی‌های تخصصی</div>
+            <h2 class="section-title">مکمل مناسب هدف ورزشی خود را انتخاب کنید</h2>
+          </div>
+          <a href="products.html" class="section-link">
+            <span>مشاهده همه محصولات</span>
+            <span>←</span>
+          </a>
+        </div>
+
+        <div class="category-grid">
+          
+          <a href="products.html?cat=whey" class="category-card">
+            <div class="category-icon-circle">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+            </div>
+            <span class="category-name">پروتئین وی و ایزوله</span>
+            <span class="category-count">عضله‌سازی خالص</span>
+          </a>
+
+          <a href="products.html?cat=creatine" class="category-card">
+            <div class="category-icon-circle">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <span class="category-name">کراتین مونوهیدرات</span>
+            <span class="category-count">افزایش توان انفجاری</span>
+          </a>
+
+          <a href="products.html?cat=amino" class="category-card">
+            <div class="category-icon-circle">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <span class="category-name">آمینو اسید و BCAA</span>
+            <span class="category-count">ریکاوری و ضد کاتابولیک</span>
+          </a>
+
+          <a href="products.html?cat=preworkout" class="category-card">
+            <div class="category-icon-circle">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
+              </svg>
+            </div>
+            <span class="category-name">پمپ و قبل تمرین</span>
+            <span class="category-count">انرژی و تمرکز حداکثری</span>
+          </a>
+
+          <a href="products.html?cat=gainer" class="category-card">
+            <div class="category-icon-circle">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 20V10"></path>
+                <path d="M12 20V4"></path>
+                <path d="M6 20v-6"></path>
+              </svg>
+            </div>
+            <span class="category-name">گینر و مس کامپلکس</span>
+            <span class="category-count">افزایش سریع وزن و حجم</span>
+          </a>
+
+          <a href="products.html?cat=vitamins" class="category-card">
+            <div class="category-icon-circle">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <span class="category-name">سلامت، مفاصل و ویتامین</span>
+            <span class="category-count">تقویت سیستم ایمنی</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Science & Quality Assurance Spotlight -->
+    <section class="science-section">
+      <div class="container">
+        <div class="science-grid">
+          
+          <div class="science-content">
+            <div class="hero-kicker">
+              <span class="kicker-bar"></span>
+              <span>تعهد به علم، دقت آزمایشگاهی و سلامت ورزشکاران</span>
+            </div>
+            <h2>چرا مکمل‌های اپکس بالاترین ضریب اطمینان را دارند؟</h2>
+            <p>
+              تمامی مواد اولیه مستقیماً از کارخانجات تایید شده اروپایی تامین شده و هر سری ساخت (Batch) تحت دقیق‌ترین آنالیزهای کروماتوگرافی مایع با کارایی بالا (HPLC) قرار می‌گیرد تا تطابق کامل اطلاعات درج شده روی برچسب با محتویات واقعی پودر تضمین گردد.
+            </p>
+
+            <div class="quality-check-list">
+              <div class="check-item">
+                <div class="check-icon">✓</div>
+                <div>
+                  <h4>آنالیز دقیق درصد پروتئین واقعی</h4>
+                  <p>تست نیتروژن کل به روش کجلدال جهت اطمینان از عدم وجود هرگونه پدیده اسید آمینه کاذب (Amino Spiking).</p>
+                </div>
+              </div>
+              <div class="check-item">
+                <div class="check-icon">✓</div>
+                <div>
+                  <h4>فاقد فلزات سنگین و آلاینده‌های میکروبی</h4>
+                  <p>کنترل دقیق میزان سرب، جیوه و کادمیوم زیر حد آستانه دارویی فارماکوپه بین‌المللی.</p>
+                </div>
+              </div>
+              <div class="check-item">
+                <div class="check-icon">✓</div>
+                <div>
+                  <h4>استعلام برخط بچ نامبر برای مشتریان</h4>
+                  <p>امکان مشاهده سرتیفیکیت آزمایشگاه رسمی آنالیز کیفی با وارد کردن کد رهگیری روی قوطی.</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+              <a href="about.html#batch-verifier" class="btn-primary" style="padding: 0.75rem 1.5rem;">
+                استعلام آنلاین کد بچ محصول
+              </a>
+              <a href="about.html" class="btn-outline-dark" style="padding: 0.75rem 1.25rem;">
+                درباره استانداردهای cGMP
+              </a>
+            </div>
+          </div>
+
+          <div class="science-media-frame">
+            <img src="./assets/images/lab.jpg" alt="آزمایشگاه کنترل کیفیت مکمل‌های اپکس" loading="lazy" />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Athlete Reviews & Testimonials -->
+    <section style="padding: 4rem 0; background-color: #FFFFFF; border-bottom: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="section-head" style="text-align: center; justify-content: center; flex-direction: column; align-items: center;">
+          <div class="section-kicker">صدای قهرمانان</div>
+          <h2 class="section-title">تجربه ورزشکاران حرفه‌ای از مصرف مکمل‌های اپکس</h2>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 1.5rem;">
+          
+          <div style="background: var(--surface-light); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem;">
+            <div style="color: #F59E0B; margin-bottom: 0.75rem; font-size: 1.1rem;">★★★★★</div>
+            <p style="font-size: 0.9375rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 1.25rem;">
+              «به عنوان مربی فیتنس و قهرمان مسابقات بادی‌کلاسیک، هضم سبک پروتئین وی ایزوله اپکس و انحلال فوری آن در آب سرد فوق‌العاده است. خیالم از بابت عدم وجود شکر اضافی و اصالت آزمایشگاهی کالا کاملاً آسوده است.»
+            </p>
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #111827; color: var(--primary); font-weight: 800; display: flex; align-items: center; justify-content: center; font-family: var(--font-display);">
+                MR
+              </div>
+              <div>
+                <h4 style="font-size: 0.9375rem; font-weight: 700; color: var(--text-main);">مهدی رفیعی</h4>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">مربی رسمی فدراسیون بدنسازی و پرورش اندام</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: var(--surface-light); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem;">
+            <div style="color: #F59E0B; margin-bottom: 0.75rem; font-size: 1.1rem;">★★★★★</div>
+            <p style="font-size: 0.9375rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 1.25rem;">
+              «کراتین مش ۲۰۰ اپکس دقیقاً مثل آرد نرم است و ته شیکر ته‌نشین نمی‌شود. در دوره حجم خشک ۴ کیلوگرم افزایش توان اسکوات و پرس سینه داشتم بدون این که آب زیرپوستی یا نفخ شکم اذیتم کنه.»
+            </p>
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #111827; color: var(--primary); font-weight: 800; display: flex; align-items: center; justify-content: center; font-family: var(--font-display);">
+                SK
+              </div>
+              <div>
+                <h4 style="font-size: 0.9375rem; font-weight: 700; color: var(--text-main);">سینا کاظمی</h4>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">ورزشکار کراس‌فیت و پاورلیفتینگ</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: var(--surface-light); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem;">
+            <div style="color: #F59E0B; margin-bottom: 0.75rem; font-size: 1.1rem;">★★★★★</div>
+            <p style="font-size: 0.9375rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 1.25rem;">
+              «سرعت ارسال بسته به شیراز کمتر از ۲۴ ساعت بود و بسته‌بندی عایق زنجیره سرد واقعاً حرفه‌ای کار شده بود. برگه آنالیز کیفی داخل بسته نشانه احترام واقعی این برند به ورزشکارانه.»
+            </p>
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #111827; color: var(--primary); font-weight: 800; display: flex; align-items: center; justify-content: center; font-family: var(--font-display);">
+                FA
+              </div>
+              <div>
+                <h4 style="font-size: 0.9375rem; font-weight: 700; color: var(--text-main);">فرشاد انصاری</h4>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">خریدار تایید شده از شیراز</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer (Obsidian Dark with WhatsApp Advisory & Trust Badges) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        
+        <!-- Brand Bio -->
+        <div class="footer-brand">
+          <div class="brand-zone" style="margin-bottom: 1rem;">
+            <div class="brand-logo-icon">▲</div>
+            <div class="brand-text-block">
+              <span class="brand-title">APEX <span>NUTRITION</span></span>
+              <span class="brand-sub">تغذیه و مکمل‌های قهرمانی</span>
+            </div>
+          </div>
+          <p>
+            اپکس نوتریشن معتبرترین مرجع تخصصی تامین مکمل‌های ورزشی دارای تاییدیه آزمایشگاهی، با هدف ریشه‌کن کردن مکمل‌های تقلبی و ارتقای سلامت جامعه ورزشی فعالیت می‌نماید.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="https://wa.me/989120000000" target="_blank" rel="noopener" class="btn-whatsapp" style="font-size: 0.8125rem; padding: 0.5rem 1rem;">
+              <span>مشاوره در واتساپ</span>
+              <span>💬</span>
+            </a>
+            <a href="contact.html" class="btn-outline-dark" style="font-size: 0.8125rem; padding: 0.5rem 1rem;">
+              درخواست تماس
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-col-title">دسترسی سریع</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">صفحه اصلی</a></li>
+            <li><a href="products.html">فروشگاه و لیست مکمل‌ها</a></li>
+            <li><a href="about.html">درباره استانداردهای اپکس</a></li>
+            <li><a href="about.html#batch-verifier">سامانه استعلام اصالت کالا</a></li>
+            <li><a href="contact.html">مشاوره تخصصی و شعب</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories -->
+        <div>
+          <h4 class="footer-col-title">دسته‌بندی مکمل‌ها</h4>
+          <ul class="footer-links-list">
+            <li><a href="products.html?cat=whey">پروتئین وی و هیدرولیز</a></li>
+            <li><a href="products.html?cat=creatine">کراتین میکرونایز ۲۰۰ مش</a></li>
+            <li><a href="products.html?cat=amino">بی‌سی‌ای‌ای و گلوتامین</a></li>
+            <li><a href="products.html?cat=preworkout">پمپ و پیش از تمرین</a></li>
+            <li><a href="products.html?cat=gainer">گینر و افزایش وزن</a></li>
+            <li><a href="products.html?cat=vitamins">مولتی ویتامین و امگا ۳</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Trust Badges -->
+        <div>
+          <h4 class="footer-col-title">دفتر مرکزی و پشتیبانی</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <div>
+              <strong>تلفن پشتیبانی:</strong> <span class="num-ltr">۰۲۱-۸۸۹۹۰۰۱۱</span>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <div>تهران، خیابان ولیعصر، بالاتر از پارک ساعی، برج نوآوری ورزش، طبقه ۷</div>
+          </div>
+          
+          <div class="trust-badges-row">
+            <div class="trust-badge-card">
+              <span>🛡️</span>
+              <span>ضمانت اصالت ۱۰۰٪</span>
+            </div>
+            <div class="trust-badge-card">
+              <span>❄️</span>
+              <span>زنجیره سرد تحویل</span>
+            </div>
+            <div class="trust-badge-card">
+              <span>🔬</span>
+              <span>تاییدیه HPLC</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          تمامی حقوق مادی و معنوی برای مجموعه <strong>اپکس نوتریشن (Apex Athletic Nutrition)</strong> محفوظ است.
+        </div>
+        <div style="display: flex; gap: 1rem; color: #64748B;">
+          <span>ارسال ۲۴ ساعته</span>
+          <span>·</span>
+          <span>پشتیبانی شبانه‌روزی</span>
+          <span>·</span>
+          <span>گارانتی بازگشت وجه</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-out Shopping Cart Drawer -->
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="سبد خرید">
+    <div class="cart-header">
+      <h3>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        سبد خرید مکمل‌ها
+      </h3>
+      <button type="button" class="drawer-close-btn" data-action="close-cart" title="بستن سبد">✕</button>
+    </div>
+
+    <!-- Free shipping progress bar -->
+    <div class="free-shipping-progress">
+      <div id="freeShippingText">با خرید بالای ۱،۵۰۰،۰۰۰ تومان، ارسال رایگان خواهد بود.</div>
+      <div class="progress-track">
+        <div class="progress-fill" id="freeShippingProgress" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Cart items list -->
+    <div class="cart-items-container" id="cartItemsContainer">
+      <!-- Items dynamically populated by main.js -->
+    </div>
+
+    <!-- Cart footer & checkout trigger -->
+    <div class="cart-footer">
+      <div class="cart-coupon-row">
+        <input type="text" id="couponInput" class="coupon-input" placeholder="کد تخفیف (مثال: APEX15)" />
+        <button type="button" id="couponBtn" class="coupon-btn">اعمال کد</button>
+      </div>
+
+      <div class="summary-row">
+        <span>مجموع اقلام:</span>
+        <span id="cartSubtotal" class="price-value">۰ تومان</span>
+      </div>
+      <div class="summary-row" style="display: none; color: var(--accent-crimson);">
+        <span>تخفیف ویژه:</span>
+        <span id="cartDiscount" class="price-value">۰ تومان</span>
+      </div>
+      <div class="summary-row">
+        <span>هزینه بسته‌بندی و ارسال:</span>
+        <span id="cartShipping">رایگان</span>
+      </div>
+      <div class="summary-row total">
+        <span>مبلغ نهایی فاکتور:</span>
+        <span id="cartTotal" class="price-value">۰ تومان</span>
+      </div>
+
+      <button type="button" id="checkoutBtn" class="btn-primary" style="width: 100%; padding: 0.85rem; font-size: 1rem; margin-top: 0.5rem;">
+        تکمیل سفارش و تسویه حساب
+      </button>
+    </div>
+  </aside>
+
+  <!-- Quick Search Modal -->
+  <div class="search-modal" id="searchModal">
+    <div class="search-box-card">
+      <div class="search-input-wrapper">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: #6B7280;">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInputField" class="search-input-field" placeholder="جستجوی نام مکمل (پروتئین وی، کراتین، پمپ...)" autocomplete="off" />
+        <button type="button" class="drawer-close-btn" onclick="window.ApexApp.closeModals()">✕</button>
+      </div>
+      <div class="search-results-list" id="searchResultsList">
+        <!-- Live search results -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-dark); padding-bottom: 1rem;">
+      <span class="brand-title" style="font-size: 1.15rem;">APEX <span>NUTRITION</span></span>
+      <button type="button" class="drawer-close-btn" data-action="close-mobile" style="color: #fff;">✕</button>
+    </div>
+
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link active">صفحه اصلی</a></li>
+      <li><a href="products.html" class="mobile-nav-link">محصولات و فروشگاه</a></li>
+      <li><a href="about.html" class="mobile-nav-link">درباره ما و اصالت‌سنجی</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">تماس و مشاوره تخصصی</a></li>
+    </ul>
+
+    <div style="margin-top: auto;">
+      <a href="https://wa.me/989120000000" target="_blank" rel="noopener" class="btn-whatsapp" style="width: 100%; margin-bottom: 0.75rem;">
+        مشاوره فوری در واتساپ
+      </a>
+      <div style="font-size: 0.8125rem; color: #94A3B8; text-align: center;">
+        تلفن: <span class="num-ltr">۰۲۱-۸۸۹۹۰۰۱۱</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Advisory Button -->
+  <a href="https://wa.me/989120000000" target="_blank" rel="noopener" class="floating-whatsapp" title="مشاوره رایگان در واتساپ">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+    </svg>
+  </a>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+</body>
+</html>
